@@ -1,6 +1,6 @@
 <template>
   <div class="home-container">
-    <img class="home-portrait" />
+    <img class="home-portrait" src="~assets/felicia.jpg" />
     <h1 class="home-title">felicia zhang</h1>
     <p>engineer, artist, and aiming to be much more</p>
   </div>
@@ -11,6 +11,7 @@
     text-align: center;
     padding: 96px 48px 48px;
     height: 100vh;
+    background-image: url("~assets/home-bg.png")
   }
 
   .home-portrait {

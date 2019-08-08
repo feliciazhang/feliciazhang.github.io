@@ -4,8 +4,8 @@
       <span class="about-description-strong">hey! 👋</span>
       thanks for stopping by. I'm a fourth year student at Northeastern University in Boston
       (Massachusetts born and raised!) where I'm studying computer engineering and computer science.
-      currently, I'm working as a software engineering co-op at Drift ⚡, where I've been able to learn
-      so much from so many talented people. I love visuals, a good UI, and being able to really see
+      currently, I'm a software engineering co-op at Drift ⚡, where I've been able to learn
+      so much from so many talented people. I'm a fan of visuals, a good UI, and being able to really see
       how my work is impacting users so I focus on front end development, but I'm always down to learn
       to learn something new. when I'm not at the office or in the classroom, I'm also the outreach team lead for
       <a href="https://www.hackbeanpot.com" target="_blank">HackBeanpot</a>, a non profit organization
@@ -42,7 +42,7 @@
           creating is just fun, whatever form it may be. there's a reason why kids are always building towers
           and oragami hats and mud pies. my "making" manifests mostly in the form of 1800s pioneer housewife
           activities: art and painting, knitting, sewing, baking etc. and of course, we can't forget about
-          our good friend software dev (considerably less 1800s). the best part of making is giving it away
+          our good friend software dev (considerably less 1800s). but the best part of making is giving it away
           and putting the results to good use.
         </p>
       </li>
@@ -80,6 +80,7 @@
 
   .about-important-item h3 {
     margin: 16px 0 8px;
+    font-family: var(--font-ovo);
   }
 
   .about-important-item p {

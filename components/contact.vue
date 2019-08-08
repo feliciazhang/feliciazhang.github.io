@@ -21,7 +21,7 @@
 
 <style>
   .contact-bar-container {
-    background-color: var(--main-neutral);
+    background-color: rgba(247,240,233, 0.5);
     width: 100%;
     position: fixed;
     top: 0;
