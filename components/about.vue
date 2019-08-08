@@ -1,5 +1,5 @@
 <template>
-  <div id="about" class="about-container">
+  <div id="about">
     <div class="about-description">
       <span class="about-description-strong">hey! 👋</span>
       thanks for stopping by. I'm a fourth year student at Northeastern University in Boston
@@ -12,55 +12,54 @@
       that hosts an annual hackathon for Boston students to learn, grow, and get involved in the tech community.
     </div>
 
-    <h3 class="about-important-title">a few things I care about</h3>
-    <ul class="about-important-list">
-      <li class="about-important-item">
-        <h3>education</h3>
-        <p>
-          you'll see that there's going to be a bit of a theme here about things that foster learning and expanding
-          horizons and just overall gathering <span class="italics">more</span>. filling one's cup, per se.
-          education is at the center of growing one's knowledgebase. I'm so so priveleged to have access
-          to some of the best education out there, to have channels for learning always be available to me,
-          and everyone deserves to have that.
-        </p>
-      </li>
+    <div class="about-important">
+      <h3 class="about-important-title">a few things I care about</h3>
+      <ul class="about-important-list">
+        <li class="about-important-item">
+          <h3>education</h3>
+          <p>
+            you'll see that there's going to be a bit of a theme here about things that foster learning and expanding
+            horizons and just overall gathering <span class="italics">more</span>. filling one's cup, per se.
+            education is at the center of growing one's knowledgebase. I'm so so priveleged to have access
+            to some of the best education out there, to have channels for learning always be available to me,
+            and everyone deserves to have that.
+          </p>
+        </li>
 
-      <li class="about-important-item">
-        <h3>language</h3>
-        <p>
-          language is an amazing thing for the connections it creates between people and even through time.
-          knowing and understanding more languages increases those connections and opportunities for diverse
-          experiences exponentially. there's just so much out there to discover and learn and for me language
-          really facilitates that, which is why I love it. so far, mandarin was my first language, I'm passably
-          good at german, and working on french.
-        </p>
-      </li>
+        <li class="about-important-item">
+          <h3>language</h3>
+          <p>
+            language is an amazing thing for the connections it creates between people and even through time.
+            knowing and understanding more languages increases those connections and opportunities for diverse
+            experiences exponentially. there's just so much out there to discover and learn and for me language
+            really facilitates that, which is why I love it. so far, mandarin was my first language, I'm passably
+            good at german, and working on french.
+          </p>
+        </li>
 
-      <li class="about-important-item">
-        <h3>making things</h3>
-        <p>
-          creating is just fun, whatever form it may be. there's a reason why kids are always building towers
-          and oragami hats and mud pies. my "making" manifests mostly in the form of 1800s pioneer housewife
-          activities: art and painting, knitting, sewing, baking etc. and of course, we can't forget about
-          our good friend software dev (considerably less 1800s). but the best part of making is giving it away
-          and putting the results to good use.
-        </p>
-      </li>
-    </ul>
+        <li class="about-important-item">
+          <h3>making things</h3>
+          <p>
+            creating is just fun, whatever form it may be. there's a reason why kids are always building towers
+            and oragami hats and mud pies. my "making" manifests mostly in the form of 1800s pioneer housewife
+            activities: art and painting, knitting, sewing, baking etc. and of course, we can't forget about
+            our good friend software dev (considerably less 1800s). but the best part of making is giving it away
+            and putting the results to good use.
+          </p>
+        </li>
+      </ul>
+    </div>
   </div>
 </template>
 
 <style>
-  .about-container {
+  .about-description {
+    text-align: justify;
     margin: 32px 132px;
     padding: 40px 100px;
     background-color: var(--main-red);
     color: var(--main-neutral);
     border-radius: 4px;
-  }
-
-  .about-description {
-    text-align: justify;
   }
 
   .about-description-strong {
@@ -72,10 +71,18 @@
     color: var(--main-neutral);
   }
 
+  .about-important {
+    margin: 32px 132px;
+    padding: 40px 100px;
+    background-color: var(--main-pink);
+    color: var(--main-navy);
+    border-radius: 4px;
+  }
+
   .about-important-title {
     font-family: var(--font-ovo);
     font-size: 28px;
-    margin: 40px 0 24px;
+    margin: 0 0 24px;
   }
 
   .about-important-item h3 {
