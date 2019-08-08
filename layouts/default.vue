@@ -5,8 +5,6 @@
 </template>
 
 <style>
-  @import url("https://fonts.googleapis.com/css?family=Montserrat|Ovo");
-
   :root {
     --font-montserrat: "Montserrat";
     --font-ovo: "Ovo";
