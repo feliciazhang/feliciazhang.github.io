@@ -22,7 +22,7 @@
     padding: 0 8px;
     position: fixed;
     right: 0;
-    top: 40%;
+    top: calc(50% - 70px);
     border-radius: 4px 0 0 4px;
     transition: opacity 300ms ease;
     list-style-type: none;
@@ -49,6 +49,8 @@
 
   .nav:hover .nav-dot {
     margin: 16px 24px 16px 0;
+    width: 18px;
+    height: 18px;
   }
 
   .nav-tag {
@@ -57,7 +59,7 @@
     position: absolute;
     left: -88px;
     width: 72px;
-    top: calc(50% - 6px);
+    top: calc(50% - 12px);
     font-size: 12px;
     text-align: right;
   }

@@ -1,7 +1,7 @@
 <template>
   <div class="gallery">
     <h1>coming soon!</h1>
-    <a href="/">{{"\u2190 back"}}</a>
+    <a href="/">{{ "\u2190 back" }}</a>
   </div>
 </template>
 

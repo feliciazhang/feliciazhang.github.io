@@ -99,4 +99,12 @@
   .italics {
     font-style: italic;
   }
+
+  @media (max-width: 767px) {
+    .about-description,
+    .about-important {
+      margin: 0;
+      padding: 24px 16px;
+    }
+  }
 </style>

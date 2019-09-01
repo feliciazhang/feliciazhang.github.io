@@ -1,7 +1,9 @@
 <template>
   <div class="home-container">
     <img class="home-portrait" src="~assets/felicia.jpg" />
-    <h1 class="home-title">felicia zhang</h1>
+    <h1 class="home-title">
+      felicia zhang
+    </h1>
     <p>engineer, artist, and aiming to be much more</p>
   </div>
 </template>
@@ -11,7 +13,8 @@
     text-align: center;
     padding: 96px 48px 48px;
     height: 100vh;
-    background-image: url("~assets/home-bg.png")
+    background-image: url("~assets/home-bg.png");
+    background-size: cover;
   }
 
   .home-portrait {
@@ -26,5 +29,11 @@
   .home-title {
     font-size: 32px;
     font-family: var(--font-ovo);
+  }
+
+  @media (max-width: 767px) {
+    .home-container {
+      height: auto;
+    }
   }
 </style>
