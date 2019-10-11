@@ -1,17 +1,16 @@
 <template>
   <div class="home-container">
-    <img class="home-portrait" src="~assets/felicia.jpg" />
+    <img class="home-portrait" src="~assets/felicia.jpeg" />
     <h1 class="home-title">
       felicia zhang
     </h1>
-    <p>engineer, artist, and aiming to be much more</p>
+    <p>engineer artist etc</p>
   </div>
 </template>
 
 <style>
   .home-container {
     text-align: center;
-    padding: 96px 48px 48px;
     height: 100vh;
     background-image: url("~assets/home-bg.png");
     background-size: cover;
@@ -22,7 +21,7 @@
     height: 240px;
     border-radius: 50%;
     border: 2px solid var(--main-red);
-    margin: 0 0 16px;
+    margin: 25vh 0 16px;
     box-shadow: 3px 3px 12px 3px #ccc;
   }
 

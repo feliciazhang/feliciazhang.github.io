@@ -3,13 +3,13 @@
     <ul class="contact-bar">
       <li class="contact-item">
         <a href="https://www.linkedin.com/in/feliciayzhang/" target="_blank">
-          <img src="~assets/linkedin.svg" />
+          <img src="~assets/icons/linkedin.svg" />
         </a>
       </li>
 
       <li class="contact-item">
         <a href="https://github.com/feliciazhang" target="_blank">
-          <img src="~assets/git.svg" />
+          <img src="~assets/icons/git.svg" />
         </a>
       </li>
       <li class="contact-item">
