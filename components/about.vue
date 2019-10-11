@@ -14,8 +14,9 @@
 
     <div class="about-important">
       <h3 class="about-important-title">a few things I care about</h3>
-      <ul class="about-important-list">
-        <li class="about-important-item">
+      <div class="about-important-item">
+        <img src="~assets/icons/edu.svg" />
+        <div class="about-important-details">
           <h3>education</h3>
           <p>
             you'll see that there's going to be a bit of a theme here about things that foster learning and expanding
@@ -24,9 +25,12 @@
             to some of the best education out there, to have channels for learning always be available to me,
             and everyone deserves to have that.
           </p>
-        </li>
+        </div>
+      </div>
 
-        <li class="about-important-item">
+      <div class="about-important-item">
+        <img src="~assets/icons/lang.svg" />
+        <div class="about-important-details">
           <h3>language</h3>
           <p>
             language is an amazing thing for the connections it creates between people and even through time.
@@ -35,9 +39,12 @@
             really facilitates that, which is why I love it. so far, mandarin was my first language, I'm passably
             good at german, and working on french.
           </p>
-        </li>
+        </div>
+      </div>
 
-        <li class="about-important-item">
+      <div class="about-important-item">
+        <img src="~assets/icons/craft.svg" />
+        <div class="about-important-details">
           <h3>making things</h3>
           <p>
             creating is just fun, whatever form it may be. there's a reason why kids are always building towers
@@ -46,8 +53,8 @@
             our good friend software dev (considerably less 1800s). but the best part of making is giving it away
             and putting the results to good use.
           </p>
-        </li>
-      </ul>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -85,15 +92,25 @@
     margin: 0 0 24px;
   }
 
+  .about-important-item {
+    display: flex;
+  }
+
+  .about-important-details {
+    margin: 0 0 16px 24px;
+  }
+
   .about-important-item h3 {
     margin: 16px 0 8px;
     font-family: var(--font-ovo);
+    font-size: 24px;
   }
 
   .about-important-item p {
     margin: 0;
     font-size: 14px;
     line-height: 20px;
+    text-align: justify;
   }
 
   .italics {
