@@ -1,8 +1,19 @@
 <template>
   <div>
+    <ContactBar />
     <Nuxt />
   </div>
 </template>
+
+<script>
+import ContactBar from '~/components/contact.vue'
+
+export default {
+  components: {
+    ContactBar
+  }
+}
+</script>
 
 <style>
   :root {
