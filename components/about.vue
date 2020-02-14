@@ -2,7 +2,7 @@
   <div id="about">
     <div class="about-description">
       <span class="about-description-strong">hey! 👋</span>
-      thanks for stopping by. I'm a fourth year student at Northeastern University in Boston (Massachusetts born and raised!) where I'm studying computer engineering and computer science. currently, I'm a software engineering co-op at Drift ⚡, where I've been able to learn so much from so many talented people. I'm a fan of visuals, a good UI, and being able to really see how my work is impacting users so I focus on front end development, but I'm always down to learn to learn something new. when I'm not at the office or in the classroom, I'm also the outreach team lead for <a href="https://www.hackbeanpot.com" target="_blank">HackBeanpot</a>, a non profit organization that hosts an annual hackathon for Boston students to learn, grow, and get involved in the tech community.
+      thanks for stopping by. I'm a fourth year student at Northeastern University in Boston (Massachusetts born and raised!) where I'm studying computer engineering and computer science. currently, I'm at facebook as a software engineering intern, and previously at Drift ⚡, where I've been able to learn so much from so many talented people. I'm a fan of visuals, a good UI, and being able to really see how my work is impacting users so I focus on front end development, but I'm always down to learn to learn something new. when I'm not at the office or in the classroom, I'm also the outreach team lead for <a href="https://www.hackbeanpot.com" target="_blank">HackBeanpot</a>, a non profit organization that hosts an annual hackathon for Boston students to learn, grow, and get involved in the tech community.
     </div>
 
     <div class="about-important">
