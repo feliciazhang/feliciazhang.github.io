@@ -25,7 +25,7 @@
         </a>
       </li>
       <li class="contact-item">
-        zhang.fel at husky.neu.edu
+        zhang.fel at northeastern.edu
       </li>
     </ul>
   </div>
