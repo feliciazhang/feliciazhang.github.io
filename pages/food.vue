@@ -11,10 +11,10 @@
     </ul>
 
     <div class="food-content">
-      <Welcome :class="[ selectedfood == 'welcome' ? 'food-content-active': '', 'food-content-section' ]"/>
-      <Batches :class="[ selectedfood == 'batches' ? 'food-content-active': '', 'food-content-section' ]"/>
-      <Bits :class="[ selectedfood == 'bits' ? 'food-content-active': '', 'food-content-section' ]"/>
-      <Fancy :class="[ selectedfood == 'fancy' ? 'food-content-active': '', 'food-content-section' ]"/>
+      <Welcome :class="[ selectedfood == 'welcome' ? 'food-content-active': '', 'food-content-section' ]" />
+      <Batches :class="[ selectedfood == 'batches' ? 'food-content-active': '', 'food-content-section' ]" />
+      <Bits :class="[ selectedfood == 'bits' ? 'food-content-active': '', 'food-content-section' ]" />
+      <Fancy :class="[ selectedfood == 'fancy' ? 'food-content-active': '', 'food-content-section' ]" />
     </div>
   </div>
 </template>
@@ -76,17 +76,17 @@ const foodData = [
   { title: '"fancy" stuff', id: 'fancy' }]
 
 export default {
-  data: () => (
-    {
-      foodSections: foodData,
-      selectedfood: foodData[0].id
-    }
-  ),
   components: {
     Welcome,
     Batches,
     Bits,
     Fancy
-  }
+  },
+  data: () => (
+    {
+      foodSections: foodData,
+      selectedfood: foodData[0].id
+    }
+  )
 }
 </script>

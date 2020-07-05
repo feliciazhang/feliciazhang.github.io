@@ -82,7 +82,7 @@ export default {
     {
       navItems: [
         { text: 'about', link: '/#about' },
-        { text: 'what i do', link: '/#experience' },
+        // { text: 'what i do', link: '/#experience' },
         { text: "how i'm feeling", link: '/mood' }]
       // { text: 'gallery', link: '/gallery' }]
     }

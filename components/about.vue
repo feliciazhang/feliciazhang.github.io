@@ -1,8 +1,8 @@
 <template>
-  <div id="about">
+  <div class="about" id="about">
     <div class="about-description">
       <span class="about-description-strong">hey! 👋</span>
-      thanks for stopping by. I'm a fourth year student at Northeastern University in Boston (Massachusetts born and raised!) where I'm studying computer engineering and computer science. most recently, I was at facebook as a software engineering intern, and previously at Drift ⚡, where I've been able to learn so much from so many talented people. I'm a fan of visuals, a good UI, and being able to really see how my work is impacting users. I've mostly done front end web dev, but I'm always down to learn to learn something new. when I'm not at the office or in the classroom, I'm also the sponsorship team lead for <a href="https://www.hackbeanpot.com" target="_blank">HackBeanpot</a>, a non profit organization that hosts a hackathon for Boston students to learn, grow, and get involved in the tech community.
+      thanks for stopping by! I'm a student at Northeastern University in Boston where I'll be graduating with a degree in computer in 2021. most recently, I was at facebook as a software engineering intern, and previously at drift ⚡. I'm a fan of visuals, a nice UI, and being able to really see how my work is impacting users. I've mostly done front end web dev, but I'm always down to learn to learn something new. when I'm not at the office or in the classroom, I'm also the sponsorship team lead for <a href="https://www.hackbeanpot.com" target="_blank">HackBeanpot</a>, a non profit organization that hosts a hackathon for Boston students to learn, grow, and get involved in the tech community.
     </div>
 
     <div class="about-important">
@@ -12,7 +12,7 @@
         <div class="about-important-details">
           <h3>education</h3>
           <p>
-            you'll see that there's going to be a bit of a theme here about things that foster learning and expanding horizon. I've been so so lucky to have access to some of the best education out there, to have channels for learning always be available to me, and everyone deserves to have that.
+            I've been so so lucky to have access to some of the best education out there, to have channels for learning always be available to me, and everyone deserves to have that.
           </p>
         </div>
       </div>
@@ -32,7 +32,7 @@
         <div class="about-important-details">
           <h3>making things</h3>
           <p>
-            creating is just fun, whatever form it may be. my "making" manifests mostly in things like art and painting, sewing, baking etc. and of course, we can't forget about our good friend software dev. but the best part of making is seeing the results make someone else happy. (Makin It with Amy Poehler and Nick Offerman is a very wholesome show)
+            creating is just fun, whatever form it may be. my "making" manifests mostly in things like art and painting, sewing, baking etc. and of course, our good friend software dev. the process of having an idea and bringing it to its live form is super fun, but the best part of making is seeing the results make someone else happy.
           </p>
         </div>
       </div>
@@ -41,13 +41,18 @@
 </template>
 
 <style>
+  .about {
+    width: 900px;
+    margin: 24px auto;
+  }
+
   .about-description {
     text-align: justify;
-    margin: 48px 132px;
-    padding: 40px 100px;
+    padding: 40px 88px;
     background-color: var(--main-red);
     color: var(--main-neutral);
     border-radius: 4px;
+    margin-bottom: 48px;
   }
 
   .about-description-strong {
@@ -60,9 +65,7 @@
   }
 
   .about-important {
-    padding: 40px 154px;
     color: var(--main-navy);
-    border-radius: 4px;
   }
 
   .about-important-title {
@@ -73,6 +76,7 @@
 
   .about-important-item {
     display: flex;
+    margin-bottom: 16px;
   }
 
   .about-important-item img {
