@@ -2,7 +2,7 @@
   <div class="about" id="about">
     <div class="about-description">
       <span class="about-description-strong">hey! 👋</span>
-      thanks for stopping by! I'm a student at Northeastern University in Boston where I'll be graduating with a degree in computer in 2021. most recently, I was at facebook as a software engineering intern, and previously at drift ⚡. I'm a fan of visuals, a nice UI, and being able to really see how my work is impacting users. I've mostly done front end web dev, but I'm always down to learn to learn something new. when I'm not at the office or in the classroom, I'm also the sponsorship team lead for <a href="https://www.hackbeanpot.com" target="_blank">HackBeanpot</a>, a non profit organization that hosts a hackathon for Boston students to learn, grow, and get involved in the tech community.
+      thanks for stopping by! I'm a student at Northeastern University in Boston where I'll be graduating with a degree in computer science in 2021. most recently, I was at facebook as a software engineering intern, and previously at drift ⚡. I'm a fan of visuals, a nice UI, and being able to really see how my work is impacting users. I've mostly done front end web dev, but I'm always down to learn to learn something new. when I'm not at the office or in the classroom, I'm also the sponsorship team lead for <a href="https://www.hackbeanpot.com" target="_blank">HackBeanpot</a>, a non profit organization that hosts a hackathon for Boston students to learn, grow, and get involved in the tech community.
     </div>
 
     <div class="about-important">
