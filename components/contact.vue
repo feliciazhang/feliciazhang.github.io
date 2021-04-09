@@ -75,6 +75,19 @@
     vertical-align: middle;
     font-family: var(--font-ovo);
   }
+
+  @media (max-width: 767px) {
+    .nav {
+      padding: 0 4px;
+      justify-content: space-between;
+      display: flex;
+      width: 100%;
+    }
+
+    .contact-bar {
+      display: none;
+    }
+  }
 </style>
 
 <script>

@@ -136,6 +136,31 @@
     width: 100%;
     background-color: var(--main-navy);
   }
+
+  @media (max-width: 767px) {
+    .projects {
+      margin: 100px 16px 0;
+    }
+
+    .projects-title {
+      margin-bottom: 36px;
+      font-size: 36px;
+    }
+
+    .projects-box {
+      display: block;
+      margin-bottom: 24px;
+    }
+
+    .projects-box-imgwrapper {
+      width: 100%;
+    }
+
+    .projects-box-img {
+      margin: 0 20px 24px 0;
+      max-width: calc(100% - 16px);
+    }
+  }
 </style>
 
 <script>

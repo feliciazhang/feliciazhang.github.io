@@ -6,7 +6,7 @@
     </div>
 
     <div class="about-important">
-      <h3 class="about-important-title">a few things I care about</h3>
+      <h2 class="about-important-title">a few things I care about</h2>
       <div class="about-important-item">
         <img src="~assets/icons/edu.svg" />
         <div class="about-important-details">
@@ -69,8 +69,6 @@
   }
 
   .about-important-title {
-    font-family: var(--font-ovo);
-    font-size: 36px;
     margin-bottom: 36px;
   }
 
@@ -89,8 +87,6 @@
 
   .about-important-item h3 {
     margin: 16px 0 8px;
-    font-family: var(--font-ovo);
-    font-size: 24px;
   }
 
   .about-important-item p {
@@ -116,6 +112,15 @@
       padding: 24px 16px;
     }
 
+    .about-description {
+      font-size: 16px;
+      line-height: 20px;
+    }
+
+    .about-description-strong {
+      font-size: 24px;
+    }
+
     .about-important-item {
       display: block;
       text-align: center;
@@ -131,6 +136,7 @@
 
     .about-important-item h3 {
       text-align: left;
+      margin-top: 8px;
     }
   }
 </style>

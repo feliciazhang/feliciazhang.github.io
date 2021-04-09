@@ -51,4 +51,28 @@ export default {
   a:hover {
     color: var(--main-navy);
   }
+
+  h2 {
+    font-family: var(--font-ovo);
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  @media (max-width: 767px) {
+    body {
+      font-size: 16px;
+      line-height: 20px;
+    }
+
+    h2 {
+      font-size: 24px;
+    }
+
+    h3 {
+      font-size: 20px;
+    }
+  }
 </style>
