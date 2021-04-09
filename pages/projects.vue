@@ -39,7 +39,10 @@
 
 <style>
   .projects {
-    margin: 100px 150px 0;
+    padding: 100px 150px 0;
+    background-image: url("~assets/blossom-bg.png");
+    background-size: 100vw auto;
+    background-repeat: no-repeat;
   }
 
   .projects-title {
@@ -128,7 +131,7 @@
 
   .projects-box-description {
     background-color: var(--main-neutral);
-    margin: 8px 0 0 8px;
+    padding: 8px 0 0 8px;
   }
 
   .index-bottom {
@@ -139,7 +142,8 @@
 
   @media (max-width: 767px) {
     .projects {
-      margin: 100px 16px 0;
+      padding: 100px 16px 0;
+      background-image: none;
     }
 
     .projects-title {

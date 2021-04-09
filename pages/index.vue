@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="home-page">
     <Home />
     <About />
     <div class="index-bottom" />
@@ -7,10 +7,22 @@
 </template>
 
 <style>
+  .home-page {
+    background-image: url("~assets/blossom-bg.png");
+    background-size: 100vw auto;
+    background-repeat: no-repeat;
+  }
+
   .index-bottom {
     height: 36px;
     width: 100%;
     background-color: var(--main-navy);
+  }
+
+  @media (max-width: 767px) {
+    .home-page {
+      background-size: auto;
+    }
   }
 </style>
 

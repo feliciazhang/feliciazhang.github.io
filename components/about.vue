@@ -121,6 +121,10 @@
       font-size: 24px;
     }
 
+    .about-important {
+      background-color: var(--main-neutral);
+    }
+
     .about-important-item {
       display: block;
       text-align: center;

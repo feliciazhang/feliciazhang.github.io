@@ -12,8 +12,6 @@
   .home-container {
     text-align: center;
     height: 100vh;
-    /* background-image: url("~assets/home-bg.png");
-    background-size: cover; */
   }
 
   .home-portrait {
