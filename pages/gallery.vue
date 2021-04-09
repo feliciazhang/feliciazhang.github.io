@@ -10,7 +10,7 @@
     text-align: center;
     padding: 150px 0;
     height: 100vh;
-    background-image: url("~assets/home-bg.png")
+    background-image: url("~assets/blossom-bg.png")
   }
 
   .gallery a {
