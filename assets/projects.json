@@ -1,0 +1,50 @@
+[
+  {
+    "name": "HackBeanpot",
+    "url": "https://live.hackbeanpot.com/",
+    "gitUrl": "",
+    "description": "As part of the HackBeanpot team, we plan an annual hackathon for Boston area students with the goal of bringing together the Boston tech community and providing an opportunity for beginners to learn and grow in the various aspects of technology. For our first ever virtual hackathon, we built a live-updated website with all the information that our event attendees would want to know, localized for hackers tuning in around the world. We also redesign our main <a href=\"https://hackbeanpot.com\" target=\"_blank\"/>HackBeanpot site</a> year to year to align with our vision.",
+    "imgPath": "hbplive.png",
+    "tags": ["React", "Gatsby", "Airtable"]
+  },
+  {
+    "name": "Catu's Quest",
+    "url": "https://catus-quest.netlify.app/",
+    "gitUrl": "https://github.com/feliciazhang/CatusQuest",
+    "description": "Catu's Quest is a choose your own adventure style game, with full visual and audio effects. This was custom designed, written, and built for my lovely roommate Catu for her birthday using React.",
+    "imgPath": "catusquest.png",
+    "tags": ["React"]
+  },
+  {
+    "name": "Build for Black Lives",
+    "url": "buildforblacklives.com/",
+    "gitUrl": "https://github.com/HackBeanpot/build4blm",
+    "description": "Build for Black Lives is a platform built to connect anti-racist individuals with activists, organizers, and Black-owned businesses to provide pro bono work creating websites, apps, graphics, and other projects. This initiative was started by HackBeanpot, and we built the platform using React.",
+    "imgPath": "build.png",
+    "tags": ["React", "Redux", "Airtable"]
+  },
+  {
+    "name": "Tsuro",
+    "url": "",
+    "gitUrl": "https://github.com/feliciazhang/tsuro",
+    "description": "Built for CS4500 Software Development.This is an implementation of a game tournament for the board game Tsuro that can be played by AI or human players using Python. The Tsuro tournament is built as a distributed system to support multiple players, and the tournament and individual games can also be graphically spectated.",
+    "imgPath": "tsuro.gif",
+    "tags": ["Python"]
+  },
+  {
+    "name": "Sage",
+    "url": "feliciazhang.github.io/sage",
+    "gitUrl": "https://github.com/feliciazhang/sage",
+    "description": "Built for IS4300 Human Computer Interaction. Sage is an all-in-one web app for meal planning, grocery shopping and recipe binder, intended for students or busy working individuals who may want an easy and organized method to encourage them to cook more and eat healthily. A functional front-end prototype for this app was built with React after multiple design and user testing iterations.",
+    "imgPath": "sage.png",
+    "tags": ["React", "Redux", "Gatsby"]
+  },
+  {
+    "name": "Logic Grid Puzzle Experiments",
+    "url": "https://docs.google.com/document/d/1YsYIVbn-QD7O8R5DFrVShwWgj76StMKoE6A4HcM-zJQ/edit?usp=sharing",
+    "gitUrl": "https://github.com/feliciazhang/zebra-puzzle",
+    "description": "This is an experiment in SAT solving via the translation of an Einstein/zebra puzzle to a formal boolean representation. This Python script can solve smaller puzzles, identify redundant clues in a puzzle, and provide an alternate, well-formed clue set for the same puzzle solution as the given puzzle based on our findings regarding the nature of such puzzles and their clue sets.",
+    "imgPath": "logic.png",
+    "tags": ["Python"]
+  }
+]

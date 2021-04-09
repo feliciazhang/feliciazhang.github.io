@@ -2,11 +2,16 @@
   <div>
     <Home />
     <About />
+    <div class="index-bottom" />
   </div>
 </template>
 
 <style>
-
+  .index-bottom {
+    height: 36px;
+    width: 100%;
+    background-color: var(--main-navy);
+  }
 </style>
 
 <script>

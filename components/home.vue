@@ -4,7 +4,7 @@
     <h1 class="home-title">
       felicia zhang
     </h1>
-    <p>engineer artist etc</p>
+    <p>likes to make stuff</p>
   </div>
 </template>
 
@@ -12,8 +12,8 @@
   .home-container {
     text-align: center;
     height: 100vh;
-    background-image: url("~assets/home-bg.png");
-    background-size: cover;
+    /* background-image: url("~assets/home-bg.png");
+    background-size: cover; */
   }
 
   .home-portrait {

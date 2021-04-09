@@ -20,7 +20,6 @@
     margin-top: 54px;
     display: flex;
     overflow: hidden;
-    background-color: var(--main-neutral);
   }
 
   .mood-list {

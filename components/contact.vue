@@ -33,7 +33,7 @@
 
 <style>
   .contact-bar-container {
-    background-color: rgba(247,240,233, 0.5);
+    background-color: rgba(247,240,233);
     width: 100%;
     position: fixed;
     top: 0;
@@ -50,6 +50,7 @@
     display: inline-block;
     margin: 0 16px;
     padding-bottom: 4px;
+    font-family: var(--font-ovo);
   }
 
   .nav-item a {
@@ -82,7 +83,7 @@ export default {
     {
       navItems: [
         { text: 'about', link: '/#about' },
-        // { text: 'what i do', link: '/#experience' },
+        { text: 'what i\'ve done', link: '/projects' },
         { text: "how i'm feeling", link: '/mood' }]
       // { text: 'gallery', link: '/gallery' }]
     }

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Bits</h1>
+    <h1>bits</h1>
     <p>
       bits! some small bytes! I am embarrassed for having said that. these are fun. they're not really meals on their own unless you're really low on groceries and you eat a whole head of cauliflower at once. but basically pick 1-3 bits and put them together and call it a meal.
     </p>

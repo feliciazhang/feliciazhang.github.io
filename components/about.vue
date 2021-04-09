@@ -2,7 +2,7 @@
   <div class="about" id="about">
     <div class="about-description">
       <span class="about-description-strong">hey! 👋</span>
-      thanks for stopping by! I'm a student at Northeastern University in Boston where I'll be graduating with a degree in computer science in 2021. most recently, I was at facebook as a software engineering intern, and previously at drift ⚡. I'm a fan of visuals, a nice UI, and being able to really see how my work is impacting users. I've mostly done front end web dev, but I'm always down to learn to learn something new. when I'm not at the office or in the classroom, I'm also the sponsorship team lead for <a href="https://www.hackbeanpot.com" target="_blank">HackBeanpot</a>, a non profit organization that hosts a hackathon for Boston students to learn, grow, and get involved in the tech community.
+      thanks for stopping by! I'm a student at Northeastern University in Boston where I'll be graduating with a degree in computer science in 2021. most recently, I was at facebook as a software engineering intern, and previously at drift ⚡. I'm a fan of visuals, a nice UI, and being able to really see how my work is impacting users. I've mostly done front end web dev, but I'm always down to learn to learn something new. when I'm not at the office or in the classroom, I'm also the sponsorship team lead for <a href="https://www.hackbeanpot.com" target="_blank">HackBeanpot</a>, a non profit organization that hosts a hackathon for Boston students to learn, grow, and get involved in the tech community. You can see more of what I've done <a href="/projects">here!</a>
     </div>
 
     <div class="about-important">
@@ -32,7 +32,7 @@
         <div class="about-important-details">
           <h3>making things</h3>
           <p>
-            creating is just fun, whatever form it may be. my "making" manifests mostly in things like art and painting, sewing, baking etc. and of course, our good friend software dev. the process of having an idea and bringing it to its live form is super fun, but the best part of making is seeing the results make someone else happy.
+            creating is just fun, whatever form it may be. my "making" manifests mostly in things like art and painting, sewing, baking etc. and surprise - in code. the process of having an idea and bringing it to its live form is super fun, but the best part of making is seeing the results make someone else happy.
           </p>
         </div>
       </div>
@@ -42,21 +42,20 @@
 
 <style>
   .about {
-    width: 900px;
     margin: 24px auto;
   }
 
   .about-description {
     text-align: justify;
-    padding: 40px 88px;
+    padding: 80px 250px;
     background-color: var(--main-red);
     color: var(--main-neutral);
-    border-radius: 4px;
-    margin-bottom: 48px;
+    font-size: 20px;
+    line-height: 26px;
   }
 
   .about-description-strong {
-    font-size: 28px;
+    font-size: 36px;
     font-weight: bold;
   }
 
@@ -66,12 +65,13 @@
 
   .about-important {
     color: var(--main-navy);
+    padding: 36px 250px;
   }
 
   .about-important-title {
     font-family: var(--font-ovo);
-    font-size: 28px;
-    margin: 0 0 24px;
+    font-size: 36px;
+    margin-bottom: 36px;
   }
 
   .about-important-item {
@@ -95,13 +95,18 @@
 
   .about-important-item p {
     margin: 0;
-    font-size: 14px;
-    line-height: 20px;
     text-align: justify;
   }
 
   .italics {
     font-style: italic;
+  }
+
+  @media (max-width: 1024px) {
+    .about-description,
+    .about-important {
+      padding: 24px 100px;
+    }
   }
 
   @media (max-width: 767px) {

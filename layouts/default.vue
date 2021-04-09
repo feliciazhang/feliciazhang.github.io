@@ -21,7 +21,7 @@ export default {
     --font-ovo: "Ovo";
     --main-navy: #283246;
     --main-pink: #f5cbcb;
-    --main-neutral: #f7f0e9;
+    --main-neutral: #ffffff;
     --main-red: #b85e5e;
   }
 
@@ -39,11 +39,16 @@ export default {
     background: var(--main-neutral);
     color: var(--main-navy);
     font-family: var(--font-montserrat);
-    font-size: 16px;
+    font-size: 18px;
     line-height: 22px;
   }
 
   body * {
     box-sizing: border-box;
+  }
+
+  a,
+  a:hover {
+    color: var(--main-navy);
   }
 </style>
