@@ -40,9 +40,6 @@
 <style>
   .projects {
     padding: 100px 150px 0;
-    background-image: url("~assets/blossom-bg.png");
-    background-size: 100vw auto;
-    background-repeat: no-repeat;
   }
 
   .projects-title {
@@ -143,7 +140,6 @@
   @media (max-width: 767px) {
     .projects {
       padding: 100px 16px 0;
-      background-image: none;
     }
 
     .projects-title {
