@@ -1,5 +1,13 @@
 [
   {
+    "name": "FrankenPoster",
+    "url": "",
+    "gitUrl": "https://github.com/jennder/franken-poster",
+    "description": "Built for CS4120 Natural Language Processing. Using the Cornell Movie Dialog Corpus, FrankenPoster generates movie posters based on the sentiment of the conversations in each movie with pre-trained sentiment analysis models. On each poster, a poem is also generated for the movie by an RNN trained on the movie dialogs.",
+    "imgPath": "frankenposter.png",
+    "tags": ["Python", "Keras", "NLTK"]
+  },
+  {
     "name": "HackBeanpot",
     "url": "https://live.hackbeanpot.com/",
     "gitUrl": "",
